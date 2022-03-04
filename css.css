@@ -58,3 +58,19 @@ blockquote {
 	font-weight: 300;
 	letter-spacing: 2px;
 }
+
+.title:hover {
+	display: inline-block;
+	margin: 0 0.5rem;
+  
+	animation: hinge; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 3s; /* don't forget to set a duration! */
+  }
+
+  .nav-item:hover {
+	display: inline-block;
+	margin: 0 2rem;
+  
+	animation: jello; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 2s; /* don't forget to set a duration! */
+  }
